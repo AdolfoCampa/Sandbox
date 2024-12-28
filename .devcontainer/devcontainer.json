@@ -3,8 +3,8 @@
 {
 	"name": "Kubernetes - Minikube-in-Docker",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
-
+//	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+        "image": "ghcr.io/adolfocampa/adolfo-base-devops-devcontainer",
 	"features": {
 		"ghcr.io/audacioustux/devcontainers/k9s:1": {}
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
